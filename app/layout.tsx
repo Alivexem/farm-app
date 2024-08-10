@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Calistoga, Kanit } from "next/font/google";
 import "./globals.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
-const inter = Inter({ subsets: ["latin"] });
+const calistoga_init = Calistoga({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-calistoga'
+});
+
+const kanit_init = Kanit({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-kanit'
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${calistoga_init.variable} ${kanit_init.variable}`}>{children}</body>
     </html>
   );
 }

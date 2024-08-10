@@ -10,24 +10,36 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 255, 355, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --font-calistoga: 'Calistoga', sans-serif;
+    --font-kanit: 'Kanit', sans-serif;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  padding: 0;
+  margin: 0;
+}
+*{
+  padding: 0;
+  margin: 0;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+h1{
+  font-family: var(--font-calistoga);
+}
+h2{
+  font-family: var(--font-kanit);
+}
+.break-words {
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
