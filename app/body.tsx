@@ -9,7 +9,7 @@ const Body = () => {
   return (
     <main>
       <div className='flex items-center justify-center'>
-        <div className='bg-customGreen rounded-md h-[60vh] mt-2 w-[80vw] md:w-[100vw] lg:w-[100vw] p-4 flex flex-col items-center justify-center'>
+        <div className='bg-customGreen rounded-md h-[60vh] mt-0 w-[80vw] md:w-[100vw] lg:w-[100vw] p-4 flex flex-col items-center justify-center'>
           <h2 className='text-center text-[2rem] text-white'>FARM PRODUCE AT YOUR DOORSTEP</h2>
           <Image src='fruitee.png' className='h-[25vh] mt-2 w-[45vw] lg:h-[45vh] md:w-[50vw] lg:w-[30vw]' alt='image' />
         </div>
