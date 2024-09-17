@@ -12,7 +12,6 @@ const Navprofile: React.FC<NavheadProps> = ({clicked}) => {
         <Image src='img1.jpg' className='h-[75px] w-[80px] border-solid border-2 border-white rounded-[10px]' alt='image'/>
         <div className='text-white flex w-[40%] flex-col gap-y-2'>
           <p>Joshua Emmanuel</p>
-          <p>Buyer account</p>
           <p className='break-words overflow-hidden'>Calabar, Nigeria</p>
         </div>
       </div>
