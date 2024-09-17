@@ -8,7 +8,7 @@ const Buybody = () => {
   return (
     <div>
     
-      <div className='left-3 relative pl-5 pr-4 mt-12 w-[200px] flex flex-row justify-center items-center border-[1px] h-[35px]  rounded-2xl border-solid border-customGreen'>
+      <div className='left-3 relative pl-5 pr-4 mt-8 w-[200px] flex flex-row justify-center items-center border-[1px] h-[35px]  rounded-2xl border-solid border-customGreen'>
         <input className=' pl-3 w-[160px] bg-transparent' placeholder='search...' type='text' />
         <FontAwesomeIcon
         className='mr-3 ml-2'
@@ -18,7 +18,7 @@ const Buybody = () => {
       </div>
   
 
-          <h2 className='text-center mb-6 mt-10 font-bold'>SELLERS NEAR YOU</h2>
+          <h2 className='text-center mb-6 mt-6 font-bold'>SELLERS NEAR YOU</h2>
         
         <div className='flex justify-center items-center w-[full]'>
         <div className='grid grid-cols-2 justify-evenly gap-4'>
