@@ -7,7 +7,7 @@ import {
 const Buybody = () => {
   return (
     <div>
-      <div className='relative left-2 mt-[28px] w-[190px] flex flex-row justify-around items-center'>
+      <div className=' mt-3 w-[190px] flex flex-row justify-center items-center'>
         <input className='p-[3px] pl-3 border-[1px] h-[35px] w-[160px] rounded-2xl border-solid border-customGreen' placeholder='search...' type='text' />
         <FontAwesomeIcon
         className='mr-3 ml-2'
