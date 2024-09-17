@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 interface NavheadProps {
   clicked: boolean
 }
@@ -8,7 +9,7 @@ const Navprofile: React.FC<NavheadProps> = ({clicked}) => {
     <div className='break-words text-white'>
     <div className='absolute top-[0] left-0 h-[100vh] p-5 w-[70vw] bg-blue-900 border-none break-words' style={{display: clicked? 'block' : 'none'}}>
       <div className='flex gap-x-5 mt-[25%]'>
-        <img src='img1.jpg' className='h-[75px] w-[90px] border-solid border-2 border-white rounded-[10px]'/>
+        <Image src='img1.jpg' className='h-[75px] w-[90px] border-solid border-2 border-white rounded-[10px]' alt='image'/>
         <div className='text-white flex w-[40%] flex-col gap-y-2'>
           <p>Joshua Emmanuel</p>
           <p>Buyer account</p>
@@ -25,7 +26,7 @@ const Navprofile: React.FC<NavheadProps> = ({clicked}) => {
       </div>
 
       <div className='h-1 w-[90%] bg-white mt-10 mb-10 '></div>
-      <p className='mt-[20%]'>LOGOUT</p>
+      <Link href='/'><p className='mt-[20%]'>LOGOUT</p></Link>
     </div>
   </div>
   

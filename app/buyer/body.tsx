@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from 'next/image';
 import {
   faMagnifyingGlass
 } from "@fortawesome/free-solid-svg-icons";
@@ -22,7 +23,7 @@ const Buybody = () => {
         <div className='flex justify-center items-center w-[full]'>
         <div className='grid grid-cols-2 justify-evenly gap-4'>
           <div className='border-[1px] border-black border-solid bg-white flex flex-col justify-center items-center p-2 h-[auto] w-[45vw]'>
-          <img className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img1.jpg' />
+          <Image className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img1.jpg' alt='image' />
           <div className='mt-2 space-y-1'>
           <div className='h-1 mt-1 mb-4 rounded-sm w-10 bg-green-900'></div>
             <p className='text-gray-500 text-left text-[0.7rem] font-bold'>NAME: Mike Agbani </p>
@@ -33,7 +34,7 @@ const Buybody = () => {
           </div>
 
           <div className='border-[1px] border-black border-solid bg-white flex flex-col justify-center items-center p-2 h-[auto] w-[45vw]'>
-          <img className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img2.avif' />
+          <Image className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img2.avif' alt='image' />
           <div className='mt-2 space-y-1'>
           <div className='h-1 mt-1 mb-4 rounded-sm w-10 bg-green-900'></div>
             <p className='text-gray-500 text-left text-[0.7rem] font-bold'>NAME: Joe Counsel </p>
@@ -44,7 +45,7 @@ const Buybody = () => {
           </div>
 
           <div className='border-[1px] border-black border-solid bg-white flex flex-col justify-center items-center p-2 h-[auto] w-[45vw]'>
-          <img className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img4.webp' />
+          <Image className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img4.webp' alt='image' />
           <div className='mt-2 space-y-1'>
             <div className='h-1 mt-1 mb-4 rounded-sm w-10 bg-customGreen'></div>
             <p className='text-gray-500 text-left text-[0.7rem] font-bold'>NAME: Mary Njoku </p>
@@ -56,7 +57,7 @@ const Buybody = () => {
 
 
           <div className='border-[1px] border-black border-solid bg-white flex flex-col justify-center items-center p-2 h-[auto] w-[45vw]'>
-          <img className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img3.avif' />
+          <Image className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img3.avif' alt='image' />
           <div className='mt-2 space-y-1'>
           <div className='h-1 mt-1 mb-4 rounded-sm w-10 bg-customGreen'></div>
             <p className='text-gray-500 text-left text-[0.7rem] font-bold'>NAME: Joshua Caleb </p>
@@ -79,7 +80,7 @@ const Buybody = () => {
           <div className='flex justify-center items-center w-[full]'>
         <div className='grid grid-cols-2 justify-evenly gap-4'>
           <div className='border-[1px] border-black border-solid bg-white flex flex-col justify-center items-center p-2 h-[auto] w-[45vw]'>
-          <img className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img1.jpg' />
+          <Image className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img1.jpg' alt='image' />
           <div className='mt-2 space-y-1'>
           <div className='h-1 mt-1 mb-4 rounded-sm w-10 bg-customGreen'></div>
             <p className='text-gray-500 text-left text-[0.7rem] font-bold'>NAME: Paul James </p>
@@ -90,7 +91,7 @@ const Buybody = () => {
           </div>
 
           <div className='border-[1px] border-black border-solid bg-white flex flex-col justify-center items-center p-2 h-[auto] w-[45vw]'>
-          <img className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img2.avif' />
+          <Image className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img2.avif' alt='image' />
           <div className='mt-2 space-y-1'>
           <div className='h-1 mt-1 mb-4 rounded-sm w-10 bg-customGreen'></div>
             <p className='text-gray-500 text-left text-[0.7rem] font-bold'>NAME: David Achilonu </p>
@@ -101,7 +102,7 @@ const Buybody = () => {
           </div>
 
           <div className='border-[1px] border-black border-solid bg-white flex flex-col justify-center items-center p-2 h-[auto] w-[45vw]'>
-          <img className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img4.webp' />
+          <Image className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img4.webp' alt='image' />
           <div className='mt-2 space-y-1'>
             <div className='h-1 mt-1 mb-4 rounded-sm w-10 bg-customGreen'></div>
             <p className='text-gray-500 text-left text-[0.7rem] font-bold'>NAME: Bisola Olayemi </p>
@@ -113,7 +114,7 @@ const Buybody = () => {
 
 
           <div className='border-[1px] border-black border-solid bg-white flex flex-col justify-center items-center p-2 h-[auto] w-[45vw]'>
-          <img className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img3.avif' />
+          <Image className='rounded-[10px] mt-2 mb-3 h-[50%] w-[100%]' src='img3.avif' alt='image' />
           <div className='mt-2 space-y-1'>
           <div className='h-1 mt-1 mb-4 rounded-sm w-10 bg-customGreen'></div>
             <p className='text-gray-500 text-left text-[0.7rem] font-bold'>NAME: Azubike Ndukka </p>
