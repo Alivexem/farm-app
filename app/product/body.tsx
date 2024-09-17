@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Product = () => {
   return (
     <div>
         <div className='mt-10 flex justify-center items-center gap-x-4 p-2'>
-            <Image className='h-[120px] w-[180px] rounded-md' src='img3.avif'/>
+            <Image className='h-[120px] w-[180px] rounded-md' src='img3.avif' alt='image'/>
 
             <div>
                 <h3>ODINAKA</h3>
