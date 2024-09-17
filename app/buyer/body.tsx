@@ -8,8 +8,8 @@ const Buybody = () => {
   return (
     <div>
     
-      <div className='left-3 mt-5 w-[180px] flex flex-row justify-center items-center border-[1px] h-[35px]  rounded-2xl border-solid border-customGreen'>
-        <input className='p-[3px] pl-3 w-[160px]' placeholder='search...' type='text' />
+      <div className='left-3 relative pl-5 pr-4 mt-12 w-[200px] flex flex-row justify-center items-center border-[1px] h-[35px]  rounded-2xl border-solid border-customGreen'>
+        <input className=' pl-3 w-[160px] bg-transparent' placeholder='search...' type='text' />
         <FontAwesomeIcon
         className='mr-3 ml-2'
           icon={faMagnifyingGlass}
