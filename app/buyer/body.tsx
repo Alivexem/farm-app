@@ -7,6 +7,7 @@ import {
 const Buybody = () => {
   return (
     <div>
+      <div className='flex flex-row justify-center items-center'>
       <div className=' mt-3 w-[190px] flex flex-row justify-center items-center'>
         <input className='p-[3px] pl-3 border-[1px] h-[35px] w-[160px] rounded-2xl border-solid border-customGreen' placeholder='search...' type='text' />
         <FontAwesomeIcon
@@ -14,6 +15,7 @@ const Buybody = () => {
           icon={faMagnifyingGlass}
           size='1x'
         />
+      </div>
       </div>
 
           <h2 className='text-center mb-6 mt-10 font-bold'>SELLERS NEAR YOU</h2>
