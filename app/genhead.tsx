@@ -18,7 +18,7 @@ const Genhead: React.FC<GenheadProps> = ({ toggleMenu }) => {
         <h3 className='text-center text-white font-bold'>YOUR ORDER GETS DELIVERED TO YOUR DOORSTEP!</h3>
       </div>
       <div className='flex flex-row items-center justify-evenly'>
-        <Image className='h-[14vh] md:h-[14vh] lg:h-[18vh] w-[25vw] md:w-[11vw] lg:w-[12vw] ml-[-20px]' src='newfarme.png' alt='image' />
+        <Image className='h-[120px] md:h-[14vh] lg:h-[18vh] w-[120px] md:w-[11vw] lg:w-[12vw] ml-[-20px]' src='newfarme.png' alt='image' />
         <h1 className='text-[1.8rem]'>FARMDELY</h1>
       <Link href='/profile'><FontAwesomeIcon
           className='ml-4'
