@@ -18,6 +18,7 @@ const Navbuy: React.FC<NavheadProps> = ({clicked}) => {
 
       <div className='h-1 w-[90%] bg-white mt-[15%] mb-[15%]'></div>
       <div className='flex flex-col gap-y-5 font-bold'>
+      <Link href='/'><p>HOME</p></Link>
       <Link href='/profile'><p>PROFILE</p></Link>
       <Link href='/recently'><p>RECENTLY CHECKED</p></Link>
       <Link href='favourite'><p>FAVOURITES</p></Link>
