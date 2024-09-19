@@ -4,7 +4,7 @@ import Image from 'next/image'
 const ProfileBody = () => {
     return (
         <div>
-            <div className='flex flex-col gap-y-2 justify-center items-center mt-[70px]'>
+            <div className='flex flex-col gap-y-2 justify-center items-center mt-[40px]'>
                 <Image src='treadmill.webp' className='h-[110px] border-2 border-solid border-black w-[140px] rounded-[10px]' alt='image'/>
                 <button className='p-2 bg-slate-900 text-white rounded-md h-auto border-none'>Edit picture</button>
             </div>
