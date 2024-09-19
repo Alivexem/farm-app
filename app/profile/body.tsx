@@ -21,10 +21,7 @@ const ProfileBody = () => {
                 <input className='border-[1px] mt-3 w-[80vw] md:w-[450px] border-solid border-black p-2 pl-3' placeholder='+234-00-0000-0000' type='phone' />
                 <label className='mt-3' htmlFor='location'>Location:</label>
                 <input className='border-[1px] mt-3 w-[80vw] md:w-[450px] border-solid border-black p-2 pl-3' placeholder='location' type='text' />
-                <div className='flex flex-row mt-5 mb-7 gap-x-4'>
-                    <input className='border-[1px] w-[30vw] md:w-[250px] border-solid border-black p-2 pl-3' placeholder='password' type='password' />
-                     <button className='p-2 bg-slate-900 text-white rounded-md h-auto border-none '>change password</button>
-                </div>
+            
 
                 <button className='bg-customGreen text-white font-bold w-[40vw] md:w-[200px] h-[35px] rounded-md'>save</button>
                
