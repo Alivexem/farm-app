@@ -22,8 +22,8 @@ const Buybody = () => {
       </div>
 
       
-        <h2 className='text-center underline font-bold text-[1.4rem] my-10' style={{fontFamily:'revert'}}>
-          SELLERS NEARBY
+        <h2 className='text-center font-bold text-[1.1rem] my-6' style={{fontFamily:'revert'}}>
+          Sellers Nearby
         </h2>
 
       <div className='flex justify-center items-center md:ml-[22vw]'>
@@ -76,8 +76,8 @@ const Buybody = () => {
 
       </div>
 
-      <h2 className='text-center underline font-bold text-[1.4rem] my-10' style={{fontFamily:'revert'}}>
-          SELLERS AROUND NIGERIA
+      <h2 className='text-center font-bold text-[1.1rem] my-6' style={{fontFamily:'revert'}}>
+          Sellers Around Nigeria
         </h2>
 
       <div className='flex justify-center items-center md:ml-[22vw]'>
