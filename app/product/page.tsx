@@ -3,7 +3,7 @@ import { useState} from 'react'
 import Genhead from '../genhead'
 import Product from './body'
 import Genfoot from '../genfoot'
-import Navbuy from './nav'
+import Navbuy from '../nav'
 const Buyer = () => {
 
   const [clicked, setClicked] = useState(false)

@@ -2,7 +2,7 @@
 import { useState} from 'react'
 import Genhead from './genhead'
 import Genfoot from '../genfoot'
-import Navprofile from './nav'
+import Navprofile from '../nav'
 import ProfileBody from './body'
 import Menu from '../menu'
 const Profile = () => {

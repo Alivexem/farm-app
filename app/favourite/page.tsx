@@ -3,7 +3,7 @@ import { useState} from 'react'
 import Genhead from '../genhead'
 import Buybody from './body'
 import Genfoot from '../genfoot'
-import Navbuy from './nav'
+import Navbuy from '../nav'
 import Menu from '../menu'
 const Buyer = () => {
 
