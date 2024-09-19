@@ -17,20 +17,28 @@ const Genhead: React.FC<GenheadProps> = ({ toggleMenu }) => {
       <div className='bg-orange-500 flex justify-center items-center h-[70px] p-4 mb-3'>
         <h3 className='text-center text-white font-bold'>YOUR ORDER GETS DELIVERED TO YOUR DOORSTEP!</h3>
       </div>
-      <div className='flex flex-row items-center justify-evenly'>
-        <Image className='h-[90px] md:h-[14vh] lg:h-[18vh] w-[80px] md:w-[11vw] lg:w-[12vw] ml-[-20px]' src='newfarme.png' alt='image' />
+      <div className='flex flex-row items-center justify-evenly md:ml-10 md:w-[300px]'>
+        <Image className='h-[90px] md:h-[14vh] lg:h-[18vh] w-[80px] md:w-[120px]' src='newfarme.png' alt='image' />
         <h1 className='text-[1.8rem]'>FARMDELY</h1>
-      <Link href='/profile'><FontAwesomeIcon
-          className='ml-4'
+        <div className='md:hidden'>
+        <Link href='/profile'><FontAwesomeIcon
+          className='ml-4 md:hidden'
           icon={faUserCircle}
           size='1x'
-        /></Link>
+        />
+        </Link>
+        </div>
+        <div className='md:hidden'>
         <FontAwesomeIcon
-        onClick={toggleMenu}
-        className='ml-3'
+
+          onClick={toggleMenu}
+          className='ml-3 md:hidden'
           icon={faBarsStaggered}
           size='1x'
+
         />
+        </div>
+
       </div>
     </div>
   )

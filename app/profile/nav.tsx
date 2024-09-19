@@ -9,7 +9,7 @@ const Navprofile: React.FC<NavheadProps> = ({clicked}) => {
     <div className='break-words text-white'>
     <div className='absolute top-[0] left-0 h-[100vh] p-5 w-[70vw] bg-blue-900 border-none break-words' style={{display: clicked? 'block' : 'none'}}>
       <div className='flex gap-x-5 mt-[25%]'>
-        <Image src='img1.jpg' className='h-[75px] w-[80px] border-solid border-2 border-white rounded-[10px]' alt='image'/>
+        <Image src='img1.jpg' className='h-[75px] w-[80px] md:w-[70px] border-solid border-2 border-white rounded-[10px]' alt='image'/>
         <div className='text-white flex w-[40%] flex-col gap-y-2'>
           <p>Joshua Emmanuel</p>
           <p className='break-words overflow-hidden'>Calabar, Nigeria</p>
